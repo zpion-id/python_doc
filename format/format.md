@@ -45,5 +45,10 @@ print("{:.7}".format(f)) # 9.876543e+09
 print("{:.8}".format(f)) # 9.8765432e+09
 print("{:.9}".format(f)) # 9.87654321e+09
 print("{:.1}".format(f)) # 1e+10
+
+print("{:.20}".format(f)) # 9876543210.123456955
+print("{:.15}".format(f)) # 9876543210.12346
+print("{:.10}".format(f)) # 9.87654321e+09
+print("{:.11}".format(f)) # 9876543210.1
 #print("{1:.1}".format(f)) # IndexError: tuple index out of range
 ```
