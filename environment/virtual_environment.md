@@ -1,4 +1,4 @@
-## Virutal Environment Python di Ubuntu
+## Virtual Environment Python di Ubuntu
 
 Step 1: Install Virtualenv
 ```sh
