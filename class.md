@@ -17,6 +17,28 @@ objek1 = nama_class()
 objek2 = nama_class() # Objek dapat dibuat lebih dari satu dari kelas yang sama
 ```
 
+### Attribut ###
+```python
+class nama_class:
+    attribut = ""
+    
+    def __init__(self):
+        self.attribut2=""
+        self.attribut3=""
+        
+    def metode(self):
+       self.attribut4=""
+       self.attribut5=""
+       
+# Instansiasi
+objek = nama_class()
+objek.attribut
+objek.attribut2
+objek.attribut3
+objek.attribut4
+objek.attribut5
+```
+
 ### Class Turunan (inheritance) ###
 ```python
 class kelas_turunan(kelas_induk):
