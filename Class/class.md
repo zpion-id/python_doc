@@ -63,6 +63,18 @@ class nama_class:
 objek = nama_class()
 ```
 
+### Return Konstruktor ###
+```python
+class nama_kelas(object):
+    def __init__(self):
+        print "Baris ini tidak akan dijalankan"
+    def __new__(cls):
+        return "Nilai yg dijalankan"
+
+objek = nama_kelas()
+print objek
+```
+
 ### Konstruktor dengan argumen default ###
 ```python
 class nama_class:
